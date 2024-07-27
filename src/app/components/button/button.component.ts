@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
 export class ButtonComponent implements OnInit {
   @Input() text!: string;
   @Input() color!: string;
-  @Output() btnClick = new EventEmitter<void>();
+  @Output() btnClick = new EventEmitter();
 
   constructor() {}
 
